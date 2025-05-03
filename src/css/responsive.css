@@ -161,6 +161,10 @@
 }
 
 @media (max-width: 480px){
+    #hero{
+        padding: 5rem 0 3rem;
+    }
+
     .project-card {
         width: 350px;
         height: 450px;
@@ -184,6 +188,19 @@
 }
 
 @media (max-width: 393px) {
+    .headline{
+        font-size: 1.85rem;
+    }
+
+    .subheadline{
+        font-size: 1rem;
+    }
+
+    .photo-placeholder img{
+        width: 230px;
+        height: 230px;
+    }
+
     .about-text p{
         font-size: 0.95rem;
     }
