@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Leonardo de Carvalho | Desenvolvedor</title>
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/styles.css">
+    <link rel="stylesheet" href="./src/css/responsive.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <a href="#">
+                <h1 class="logo">Leonardo de Carvalho</h1>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h2 class="headline">Desenvolvendo interfaces que unem funcionalidade e identidade.</h2>
+                <p class="subheadline">Desenvolvedor front-end apaixonado por criar experiências digitais intuitivas e visualmente atraentes.</p>
+                <a href="#projetos" class="cta-button">Veja meus projetos</a>
+            </div>
+            <div class="hero-image">
+                <div class="photo-placeholder">
+                    <img src="./src/images/LinkedIn.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre">
+        <div class="container">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>Olá! Sou Leonardo, um desenvolvedor front-end em início de carreira. Atualmente estou focado em aprimorar minhas habilidades através de estudos e projetos pessoais. Minha jornada na programação começou com a curiosidade de entender como as interfaces que usamos diariamente são construídas, e desde então venho me dedicando a aprender as melhores práticas de desenvolvimento web.</p>
+                    <p>Acredito que a tecnologia deve ser acessível e intuitiva para todos, e é isso que busco em cada projeto que desenvolvo.</p>
+                </div>
+                <div class="skills">
+                    <h3 class="subtitles">Tecnologias</h3>
+                    <ul class="skills-list">
+                        <li class="skill-item"><img class="icons" src="./src/images/html-icon.png" alt="html logo">HTML</li>
+                        <li class="skill-item"><img class="icons" src="./src/images/css-icon.png" alt="css logo">CSS</li>
+                        <li class="skill-item"><img class="icons" src="./src/images/js-icon.png" alt="js logo">JavaScript</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos">
+        <div class="container">
+            <h2 class="section-title">Projetos</h2>
+            <div class="projects-grid">
+                <article class="project-card">
+                    <div class="project-image"><img src="./src/images/Projeto Pokedevs.gif" alt=""></div>
+                    <div class="project-content">
+                        <h3>Pokedevs</h3>
+                        <p>Projeto que apresenta os Pokedevs. Eles são os Pokémons dos desenvolvedores. Projeto responsivo para qualquer tela.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="https://leeohcarvalho.github.io/projeto-pokedevs/" target="_blank" class="project-link">Ver projeto</a>
+                    </div>
+                </article>
+                <article class="project-card">
+                    <div class="project-image"><img src="./src/images/Projeto Huddle Base.png" alt=""></div>
+                    <div class="project-content">
+                        <h3>Huddle Base</h3>
+                        <p>Este projeto é um desafio da página Frontend Mentor. Feito com o intuito de colocar em prática meus conhecimentos sobre responsividade.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://leeohcarvalho.github.io/projeto-huddle-base/" target="_blank" class="project-link">Ver projeto</a>
+                    </div>
+                </article>
+                
+                <article class="project-card">
+                    <div class="project-image"><img src="./src/images/Projeto Agência XYZ.gif" alt=""></div>
+                    <div class="project-content">
+                        <h3>Agência XYZ</h3>
+                        <p>Projeto feito no curso DevQuest. Ele foi feito com o intuito de colocar em prática meus conhecimentos sobre grid.</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </div>
+                        <a href="https://leeohcarvalho.github.io/agencia-xyz/" target="_blank" class="project-link">Ver projeto</a>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato">
+        <div class="container">
+            <h2 class="section-title">Contato</h2>
+            <div class="contact-content">
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Mensagem</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Enviar mensagem</button>
+                </form>
+                <div class="contact-info">
+                    <h3 class="subtitles">Informações de Contato</h3>
+                    <div class="contact-methods">
+                        <a href="mailto:levondev06@gmail.com" target="_blank" class="contact-method">
+                            <span class="icon"><img src="./src/images/gmail-icon.png" alt="Ícone Gmail"></span>
+                            <span>levondev06@gmail.com</span>
+                        </a>
+                        <a href="https://wa.me/5524998340219" target="_blank" class="contact-method">
+                            <span class="icon"><img src="./src/images/whatsapp-icon.png" alt="Ícone Whatsapp"></span>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+                    
+                    <h3 class="subtitles">Redes Sociais</h3>
+                    <div class="social-grid">
+                        <a href="https://www.linkedin.com/in/leeohcarvalho/" target="_blank" class="social-item linkedin">
+                            <span class="icon"><img src="./src/images/linkedin-icon.png" alt="Ícone LinkedIn"></span>
+                            <span>LinkedIn</span>
+                        </a>
+                        <a href="https://github.com/leeohcarvalho" target="_blank" class="social-item github">
+                            <span class="icon"><img src="./src/images/github-icon.png" alt="ÍconeGitHub"></span>
+                            <span>GitHub</span>
+                        </a>
+                        <a href="https://www.instagram.com/leeoh_crf/" target="_blank" class="social-item instagram">
+                            <span class="icon"><img src="./src/images/instagram-icon.png" alt="Ícone Instagram"></span>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.canva.com/design/DAGl9FXauWo/FSfsBD6haCV4Ae-dvB-1wQ/view?utm_content=DAGl9FXauWo&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hd2b28ce77b" target="_blank" class="social-item cv">
+                            <span class="icon"><img src="./src/images/curriculo-icon.png" alt="Ícone Currículo"></span>
+                            <span>Currículo</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Feito com carinho por Leonardo - 2025</p>
+        </div>
+    </footer>
+</body>
+</html>
